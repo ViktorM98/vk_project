@@ -1,0 +1,23 @@
+<ScreenManager>:
+    MainScreen:
+    ListScreen:
+
+<MainScreen>:
+    name: "main"
+    Button:
+        text: "Go To Next Screen"
+        color:0,0,0,1
+        background_color: 1,1,1,1
+        size_hint: 1,0.10
+        pos:0,200
+        font_size: 30
+        on_release: app.root.current = "ListScreen"
+
+<ListScreen>:
+    name: "ListScreen"
+    ScrollView:
+        BoxLayout:
+            id: container
+            orientation: 'vertical'
+            size_hint_y: None
+            height: self.minimum_height

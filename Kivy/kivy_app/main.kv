@@ -1,0 +1,63 @@
+#: import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+<ScreenManager>:
+    transition: FadeTransition()
+    MainScreen:
+    ListScreen:
+    PlaylistsScreen:
+
+<MainScreen>:
+    name: "main"
+    Button:
+        text: "Go to My music Screen"
+        color:0,0,0,1
+        background_color: 1,1,1,1
+        size_hint: 1,0.10
+        pos:0,100
+        font_size: 30
+        on_release: app.root.current = "ListScreen"
+
+    Button:
+        text: "Go to Playlists Screen"
+        color:0,0,0,1
+        background_color: 1,1,1,1
+        size_hint: 1,0.10
+        pos:0,200
+        font_size: 30
+        on_release: app.root.current = "PlaylistsScreen"
+
+<ListScreen>:
+    name: "ListScreen"
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: (1, 1, 1, .1)
+
+        MDTopAppBar:
+            md_bg_color: app.theme_cls.primary_color
+            elevation: 1
+            title: "My project list"
+
+        MDBoxLayout:
+            orientation: "vertical"
+            MDScrollView:
+                id: scroll_view
+                MDList:
+                    id: container
+
+<PlaylistsScreen>:
+    name: "PlaylistsScreen"
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: (1, 1, 1, .1)
+
+        MDTopAppBar:
+            md_bg_color: app.theme_cls.primary_color
+            elevation: 1
+            title: "Playlists"
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            MDScrollView:
+                id: scroll_view
+                MDList:
+                    id: container
