@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nBn6s63UK72njLBzsHgw-1" value="&lt;div&gt;Подсистема&lt;br&gt;&lt;/div&gt;&lt;div&gt;Клиент&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="199" y="40" width="100" height="670" as="geometry" />
+          <mxGeometry x="199" y="40" width="100" height="420" as="geometry" />
         </mxCell>
         <mxCell id="nBn6s63UK72njLBzsHgw-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="nBn6s63UK72njLBzsHgw-1" vertex="1">
           <mxGeometry x="45" y="65" width="10" height="185" as="geometry" />
         </mxCell>
         <mxCell id="nBn6s63UK72njLBzsHgw-6" value="&lt;div&gt;Подсистема&lt;br&gt;&lt;/div&gt;&lt;div&gt;Сервер&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="592" y="40" width="100" height="380" as="geometry" />
+          <mxGeometry x="592" y="40" width="100" height="420" as="geometry" />
         </mxCell>
         <mxCell id="nBn6s63UK72njLBzsHgw-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="nBn6s63UK72njLBzsHgw-6" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="70" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="45" y="65" width="10" height="235" as="geometry" />
         </mxCell>
         <mxCell id="nBn6s63UK72njLBzsHgw-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
-          <mxGeometry x="60" y="40" width="20" height="670" as="geometry" />
+          <mxGeometry x="60" y="40" width="20" height="410" as="geometry" />
         </mxCell>
         <mxCell id="nBn6s63UK72njLBzsHgw-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="nBn6s63UK72njLBzsHgw-11" vertex="1">
           <mxGeometry x="5" y="60" width="10" height="240" as="geometry" />
@@ -97,7 +97,7 @@
         </mxCell>
         <mxCell id="cDB2vKDaeKUZGE1OYgD3-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="nBn6s63UK72njLBzsHgw-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="861" y="510" as="sourcePoint" />
+            <mxPoint x="861" y="460" as="sourcePoint" />
             <mxPoint x="861" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
